@@ -1,0 +1,24 @@
+[DEBUG] Entrando a agregar_producto con args=(), kwargs={'nombre': 'Remera', 'descripcion': 'Azul', 'precio': 15000.0, 'stock': 10, 'categoria': 'Ropa'}
+Operación: agregar_producto | Fecha: 2025-08-04 21:27:00 | Argumentos: () {'nombre': 'Remera', 'descripcion': 'Azul', 'precio': 15000.0, 'stock': 10, 'categoria': 'Ropa'} | Resultado: Éxito
+[DEBUG] Saliendo de agregar_producto (éxito)
+[DEBUG] Entrando a actualizar_stock con args=(), kwargs={'producto_id': 1, 'cantidad': 1, 'usuario': 'admin', 'tipo': 'salida'}
+Operación: actualizar_stock | Fecha: 2025-08-04 21:27:10 | Argumentos: () {'producto_id': 1, 'cantidad': 1, 'usuario': 'admin', 'tipo': 'salida'} | Resultado: Éxito
+[DEBUG] Saliendo de actualizar_stock (éxito)
+[DEBUG] Entrando a actualizar_stock con args=(), kwargs={'producto_id': 1, 'cantidad': 1, 'usuario': 'admin', 'tipo': 'entrada'}
+Operación: actualizar_stock | Fecha: 2025-08-04 21:27:14 | Argumentos: () {'producto_id': 1, 'cantidad': 1, 'usuario': 'admin', 'tipo': 'entrada'} | Resultado: Éxito
+[DEBUG] Saliendo de actualizar_stock (éxito)
+[DEBUG] Entrando a actualizar_stock con args=(), kwargs={'producto_id': 1, 'cantidad': 1, 'usuario': 'admin', 'tipo': 'salida'}
+Operación: actualizar_stock | Fecha: 2025-08-04 21:27:37 | Argumentos: () {'producto_id': 1, 'cantidad': 1, 'usuario': 'admin', 'tipo': 'salida'} | Resultado: Éxito
+[DEBUG] Saliendo de actualizar_stock (éxito)
+[DEBUG] Entrando a agregar_producto con args=(), kwargs={'nombre': 'juan', 'descripcion': 'gil', 'precio': 1.0, 'stock': 1, 'categoria': 'Otros'}
+Operación: agregar_producto | Fecha: 2025-08-21 15:15:28 | Argumentos: () {'nombre': 'juan', 'descripcion': 'gil', 'precio': 1.0, 'stock': 1, 'categoria': 'Otros'} | Resultado: Éxito
+[DEBUG] Saliendo de agregar_producto (éxito)
+[DEBUG] Entrando a actualizar_stock con args=(), kwargs={'producto_id': 2, 'cantidad': 3, 'usuario': 'admin', 'tipo': 'salida'}
+Operación: actualizar_stock | Fecha: 2025-08-21 15:15:42 | Argumentos: () {'producto_id': 2, 'cantidad': 3, 'usuario': 'admin', 'tipo': 'salida'} | Error: Stock insuficiente
+[DEBUG] Saliendo de actualizar_stock (error)
+[DEBUG] Entrando a actualizar_stock con args=(), kwargs={'producto_id': 2, 'cantidad': 3, 'usuario': 'admin', 'tipo': 'entrada'}
+Operación: actualizar_stock | Fecha: 2025-08-21 15:15:45 | Argumentos: () {'producto_id': 2, 'cantidad': 3, 'usuario': 'admin', 'tipo': 'entrada'} | Resultado: Éxito
+[DEBUG] Saliendo de actualizar_stock (éxito)
+[DEBUG] Entrando a actualizar_stock con args=(), kwargs={'producto_id': 2, 'cantidad': 2, 'usuario': 'admin', 'tipo': 'salida'}
+Operación: actualizar_stock | Fecha: 2025-08-21 15:16:25 | Argumentos: () {'producto_id': 2, 'cantidad': 2, 'usuario': 'admin', 'tipo': 'salida'} | Resultado: Éxito
+[DEBUG] Saliendo de actualizar_stock (éxito)

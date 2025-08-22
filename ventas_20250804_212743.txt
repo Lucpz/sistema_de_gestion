@@ -1,0 +1,14 @@
+HISTORIAL DE VENTAS
+==================================================
+
+Venta: V20250804212737
+Fecha: 04/08/2025 21:27
+Cliente: Pedro
+Vendedor: admin
+Total: $15000.00
+Productos:
+  - Remera x1 = $15000.00
+------------------------------
+
+TOTAL GENERAL: $15000.00
+Total de ventas: 1

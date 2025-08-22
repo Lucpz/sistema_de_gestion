@@ -1,0 +1,23 @@
+HISTORIAL DE VENTAS
+==================================================
+
+Venta: V20250821151625
+Fecha: 21/08/2025 15:16
+Cliente: Pepe
+Vendedor: admin
+Total: $2.00
+Productos:
+  - juan x2 = $2.00
+------------------------------
+
+Venta: V20250804212737
+Fecha: 04/08/2025 21:27
+Cliente: Pedro
+Vendedor: admin
+Total: $15000.00
+Productos:
+  - Remera x1 = $15000.00
+------------------------------
+
+TOTAL GENERAL: $15002.00
+Total de ventas: 2

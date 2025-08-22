@@ -1,0 +1,413 @@
+=== SERVIDOR DE LOGS INICIADO ===
+Fecha de inicio: 2025-08-04 21:26:24
+==================================================
+
+[2025-08-04 21:26:24] [SERVIDOR] Servidor iniciado en localhost:8888
+[2025-08-04 21:26:26] [SERVIDOR] Cliente conectado: ('127.0.0.1', 55907)
+[2025-08-04 21:26:26] [INFO] Cliente: 127.0.0.1:55907
+  Operación: CONEXION_INICIAL
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp_conexion: 2025-08-04T21:26:26.660910
+------------------------------------------------------------
+[2025-08-04 21:26:26] [SERVIDOR] Cliente 127.0.0.1:55907 desconectado
+[2025-08-04 21:26:26] [SERVIDOR] Cliente conectado: ('127.0.0.1', 55908)
+[2025-08-04 21:26:26] [INFO] Cliente: 127.0.0.1:55908
+  Operación: CONEXION_INICIAL
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp_conexion: 2025-08-04T21:26:26.662363
+------------------------------------------------------------
+[2025-08-04 21:26:56] [DEBUG] Cliente: 127.0.0.1:55908
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-04T21:26:56.662044
+------------------------------------------------------------
+[2025-08-04 21:26:56] [DEBUG] Cliente: 127.0.0.1:55908
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-04T21:26:56.663534
+------------------------------------------------------------
+[2025-08-04 21:27:00] [INFO] Cliente: 127.0.0.1:55908
+  Operación: STOCK_AGREGAR_PRODUCTO
+  Usuario: admin
+  Detalles:
+    producto_id: 1
+    nombre: Remera
+    precio: 15000.0
+    stock_inicial: 10
+    categoria: Ropa
+    descripcion: Azul
+------------------------------------------------------------
+[2025-08-04 21:27:10] [INFO] Cliente: 127.0.0.1:55908
+  Operación: STOCK_ACTUALIZAR_STOCK
+  Usuario: admin
+  Detalles:
+    producto_id: 1
+    producto_nombre: Remera
+    cantidad: 1
+    tipo_movimiento: salida
+    stock_anterior: 11
+    stock_nuevo: 10
+------------------------------------------------------------
+[2025-08-04 21:27:14] [INFO] Cliente: 127.0.0.1:55908
+  Operación: STOCK_ACTUALIZAR_STOCK
+  Usuario: admin
+  Detalles:
+    producto_id: 1
+    producto_nombre: Remera
+    cantidad: 1
+    tipo_movimiento: entrada
+    stock_anterior: 8
+    stock_nuevo: 9
+------------------------------------------------------------
+[2025-08-04 21:27:26] [DEBUG] Cliente: 127.0.0.1:55908
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-04T21:27:26.662690
+------------------------------------------------------------
+[2025-08-04 21:27:26] [DEBUG] Cliente: 127.0.0.1:55908
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-04T21:27:26.664180
+------------------------------------------------------------
+[2025-08-04 21:27:37] [INFO] Cliente: 127.0.0.1:55908
+  Operación: VENTA_REALIZADA
+  Usuario: admin
+  Detalles:
+    numero_venta: V20250804212737
+    cliente: Pedro
+    total: 15000.0
+    cantidad_productos: 1
+    productos: [{'id': 1, 'nombre': 'Remera', 'cantidad': 1, 'precio_unitario': 15000.0, 'subtotal': 15000.0}]
+------------------------------------------------------------
+[2025-08-04 21:27:56] [DEBUG] Cliente: 127.0.0.1:55908
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-04T21:27:56.663898
+------------------------------------------------------------
+[2025-08-04 21:27:56] [DEBUG] Cliente: 127.0.0.1:55908
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-04T21:27:56.664882
+------------------------------------------------------------
+[2025-08-21 15:13:30] [SERVIDOR] Servidor iniciado en localhost:8888
+[2025-08-21 15:13:33] [SERVIDOR] Cliente conectado: ('127.0.0.1', 54432)
+[2025-08-21 15:13:33] [INFO] Cliente: 127.0.0.1:54432
+  Operación: CONEXION_INICIAL
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp_conexion: 2025-08-21T15:13:33.033047
+------------------------------------------------------------
+[2025-08-21 15:13:33] [SERVIDOR] Cliente 127.0.0.1:54432 desconectado
+[2025-08-21 15:13:33] [SERVIDOR] Cliente conectado: ('127.0.0.1', 54433)
+[2025-08-21 15:13:33] [INFO] Cliente: 127.0.0.1:54433
+  Operación: CONEXION_INICIAL
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp_conexion: 2025-08-21T15:13:33.034303
+------------------------------------------------------------
+[2025-08-21 15:14:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:14:03.034328
+------------------------------------------------------------
+[2025-08-21 15:14:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:14:03.035356
+------------------------------------------------------------
+[2025-08-21 15:14:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:14:33.034963
+------------------------------------------------------------
+[2025-08-21 15:14:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:14:33.035948
+------------------------------------------------------------
+[2025-08-21 15:15:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:15:03.035798
+------------------------------------------------------------
+[2025-08-21 15:15:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:15:03.036444
+------------------------------------------------------------
+[2025-08-21 15:15:28] [INFO] Cliente: 127.0.0.1:54433
+  Operación: STOCK_AGREGAR_PRODUCTO
+  Usuario: admin
+  Detalles:
+    producto_id: 2
+    nombre: juan
+    precio: 1.0
+    stock_inicial: 1
+    categoria: Otros
+    descripcion: gil
+------------------------------------------------------------
+[2025-08-21 15:15:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:15:33.036873
+------------------------------------------------------------
+[2025-08-21 15:15:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:15:33.037370
+------------------------------------------------------------
+[2025-08-21 15:15:45] [INFO] Cliente: 127.0.0.1:54433
+  Operación: STOCK_ACTUALIZAR_STOCK
+  Usuario: admin
+  Detalles:
+    producto_id: 2
+    producto_nombre: juan
+    cantidad: 3
+    tipo_movimiento: entrada
+    stock_anterior: -2
+    stock_nuevo: 1
+------------------------------------------------------------
+[2025-08-21 15:16:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:16:03.037517
+------------------------------------------------------------
+[2025-08-21 15:16:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:16:03.038018
+------------------------------------------------------------
+[2025-08-21 15:16:25] [INFO] Cliente: 127.0.0.1:54433
+  Operación: VENTA_REALIZADA
+  Usuario: admin
+  Detalles:
+    numero_venta: V20250821151625
+    cliente: Pepe
+    total: 2.0
+    cantidad_productos: 1
+    productos: [{'id': 2, 'nombre': 'juan', 'cantidad': 2, 'precio_unitario': 1.0, 'subtotal': 2.0}]
+------------------------------------------------------------
+[2025-08-21 15:16:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:16:33.038421
+------------------------------------------------------------
+[2025-08-21 15:16:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:16:33.038917
+------------------------------------------------------------
+[2025-08-21 15:17:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:17:03.039588
+------------------------------------------------------------
+[2025-08-21 15:17:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:17:03.039646
+------------------------------------------------------------
+[2025-08-21 15:17:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:17:33.040638
+------------------------------------------------------------
+[2025-08-21 15:17:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:17:33.040722
+------------------------------------------------------------
+[2025-08-21 15:18:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:18:03.041390
+------------------------------------------------------------
+[2025-08-21 15:18:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:18:03.041888
+------------------------------------------------------------
+[2025-08-21 15:18:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:18:33.042182
+------------------------------------------------------------
+[2025-08-21 15:18:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:18:33.042682
+------------------------------------------------------------
+[2025-08-21 15:19:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:19:03.043051
+------------------------------------------------------------
+[2025-08-21 15:19:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:19:03.043548
+------------------------------------------------------------
+[2025-08-21 15:19:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:19:33.043709
+------------------------------------------------------------
+[2025-08-21 15:19:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:19:33.044209
+------------------------------------------------------------
+[2025-08-21 15:20:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:20:03.044436
+------------------------------------------------------------
+[2025-08-21 15:20:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:20:03.044954
+------------------------------------------------------------
+[2025-08-21 15:20:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:20:33.045514
+------------------------------------------------------------
+[2025-08-21 15:20:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:20:33.046516
+------------------------------------------------------------
+[2025-08-21 15:21:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:21:03.046517
+------------------------------------------------------------
+[2025-08-21 15:21:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:21:03.048011
+------------------------------------------------------------
+[2025-08-21 15:21:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:21:33.047202
+------------------------------------------------------------
+[2025-08-21 15:21:33] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:21:33.048378
+------------------------------------------------------------
+[2025-08-21 15:22:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:22:03.047961
+------------------------------------------------------------
+[2025-08-21 15:22:03] [DEBUG] Cliente: 127.0.0.1:54433
+  Operación: HEARTBEAT
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp: 2025-08-21T15:22:03.048957
+------------------------------------------------------------
+[2025-08-22 19:15:44] [SERVIDOR] Servidor iniciado en localhost:8888
+[2025-08-22 19:15:47] [SERVIDOR] Cliente conectado: ('127.0.0.1', 52590)
+[2025-08-22 19:15:47] [INFO] Cliente: 127.0.0.1:52590
+  Operación: CONEXION_INICIAL
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp_conexion: 2025-08-22T19:15:47.262759
+------------------------------------------------------------
+[2025-08-22 19:15:47] [SERVIDOR] Cliente 127.0.0.1:52590 desconectado
+[2025-08-22 19:15:47] [SERVIDOR] Cliente conectado: ('127.0.0.1', 52591)
+[2025-08-22 19:15:47] [INFO] Cliente: 127.0.0.1:52591
+  Operación: CONEXION_INICIAL
+  Usuario: SISTEMA
+  Detalles:
+    cliente: Cliente-Stock
+    timestamp_conexion: 2025-08-22T19:15:47.263923
+------------------------------------------------------------
